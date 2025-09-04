@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GuiModel dimension="2" viewDimension="2" guiView="POST" currentGeomSequence="geom1" savePoint="savepoint2" currentTableFeature="tbl2" currentPlotGroupFeature="pg1" currentStudyFeature="std1" currentNode="/result/feature/pg1">
+  <openWindows>
+    <string>MAINWINDOW</string>
+  </openWindows>
+  <subModelsTag>
+    <string>geom1</string>
+    <string>geom1</string>
+    <string>geom1</string>
+    <string>geom1</string>
+    <string>geom1</string>
+    <string>geom1</string>
+    <string>geom1</string>
+  </subModelsTag>
+  <subModelsLastDrawOrSketch>
+    <string>DRAW</string>
+    <string>DRAW</string>
+    <string>DRAW</string>
+    <string>DRAW</string>
+    <string>DRAW</string>
+    <string>DRAW</string>
+    <string>DRAW</string>
+  </subModelsLastDrawOrSketch>
+</GuiModel>
+

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<savepoint tag="savepoint1" active="true" version="3" basesystem="SI">
+  <param name="rho" value="1[kg/m^3]"/>
+  <param name="flux" value="0.01[mol/m^2/s]"/>
+  <param name="c_top" value="0[mol/m^3]"/>
+  <param name="gamma" value="0.01[m^2/s]"/>
+  <param name="n_elem" value="40.0"/>
+  <modelnode tag="comp1" active="true" scope="root.comp1" name="Component 1" usemodelconverter="false" basesystem="SI" preferredComponent="" type="STANDARD" definingMesh=""/>
+  <frame tag="material1" active="true" coords="3,'X','Y','Z'" identifier="material" varnamesuffix="" equiv="mesh" geom="geom1"/>
+  <frame tag="spatial1" active="true" coords="3,'x','y','z'" identifier="spatial" varnamesuffix="_spatial" equiv="mesh" geom="geom1"/>
+  <frame tag="geometry1" active="true" coords="3,'Xg','Yg','Zg'" identifier="geometry" varnamesuffix="_geometry" equiv="mesh" geom="geom1"/>
+  <frame tag="mesh1" active="true" coords="3,'Xm','Ym','Zm'" identifier="mesh" varnamesuffix="_mesh" equiv="mesh" geom="geom1"/>
+  <geom tag="geom1" active="true" sdim="2" axisymmetric="false" parentmodel="comp1" scope="root.comp1" geomid="-3273506655549384752" realgeomid="-3273506656990680640" ismain="true" isdeformed="false" xmeshindex="1" geomframe="geometry1" meshframe="mesh1" materialframe="material1" spatialframe="spatial1" entities="7,7,1" entitiesmesh="7,7,1" lengthunit="m" angularunit="deg" unitscale="1.0" definedbymesh="false" repairtol="1.0E-6" gscale="1.0" inverseassocmaps="{0,1,2,3,4,5,7},{0,1,2,3,4,5,6},{0,1}"/>
+  <mesh tag="mesh1" active="true" geom="geom1"/>
+  <coordSystem tag="sys1" active="true" geom="geom1">
+    <postinfo>
+      <pdofnames edim="2" names="0"/>
+      <pdofnames edim="3" names="0"/>
+      <farfieldradiusdep value="false"/>
+    </postinfo>
+  </coordSystem>
+  <physics tag="tds" active="true" geom="geom1" descr="Transport_of_Diluted_Species" postinforef="savepoint5/tds"/>
+  <physics tag="spf" active="true" geom="geom1" descr="Laminar_flow" postinforef="savepoint5/spf"/>
+  <vardata ref="savepoint5"/>
+  <fileresource tag="res3" active="true" id="ffffffff" originalPath="" external="false" copyToClient="false"/>
+  <fileresource tag="res4" active="true" id="ffffffff" originalPath="" external="false" copyToClient="false"/>
+  <fileresource tag="res5" active="true" id="ffffffff" originalPath="" external="false" copyToClient="false"/>
+  <fileresource tag="res6" active="true" id="ffffffff" originalPath="" external="false" copyToClient="false"/>
+</savepoint>
+

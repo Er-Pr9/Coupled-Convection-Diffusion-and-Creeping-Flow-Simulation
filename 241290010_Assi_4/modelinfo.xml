@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modelInfo comsolVersion="6.0.0.405" modelType="MODEL" nodeType="solved" isRunnable="false" pdfResources="" passwordProtection="off" startMode="edit" ignoreLicenseErrors="off" title="" description="" runtimeProtection="off" windowTitle="241290010 Assi 4" expectedComputationTime="" lastComputationTime="125.645 s" mainPartSDim="None">
+  <historyInfo createdIn="COMSOL Multiphysics 6.0 (Build: 405)" author="" createdDate="1731608970438" lastModifiedBy="" lastModifiedDate="1731610628855"/>
+  <licenseInfo products="LLEXCEL##BATTERYDESIGN|CFD|CHEM|CORROSION|ELECTROCHEMISTRY|ELECTRODEPOSITION|FUELCELLANDELECTROLYZER|MICROFLUIDICS|POLYMERFLOW|POROUSMEDIAFLOW|SUBSURFACEFLOW"/>
+  <physicsInfo physics="Laminar_flow##Transport_of_Diluted_Species"/>
+  <geometryInfo>
+    <geom tag="geom1" dimension="2"/>
+  </geometryInfo>
+  <batchLicInfo batchLic=""/>
+  <appArgumentInfo/>
+</modelInfo>
+
